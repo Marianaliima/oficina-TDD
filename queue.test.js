@@ -8,7 +8,9 @@ describe('Queue', () => {
   })
 
   it('Deve ser capaz de calcular o tamanho da fila', () => {
-    // Seu código aqui
+     const queue = new Queue()
+        
+     expect(queue.size()).toEqual(0)
   })
 
   it('Deve ser capaz de adicionar um item na fila', () => {
